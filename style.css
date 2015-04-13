@@ -1,1 +1,93 @@
+/*** Style for doc3.html (Tables) ***/
 
+#demo-table {
+
+  empty-cells: show;
+
+}
+
+#demo-table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+}
+
+/* basic shared rules */
+#demo-table td {
+  text-align: right;
+  padding-right: .5em;
+}
+
+#demo-table > tbody > tr:nth-child(n+1) > th {
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+#demo-table > tbody > tr:nth-child(1) > td {
+  color: blue;
+}
+
+#demo-table > tbody > tr:nth-child(2) > td {
+  color: red;
+}
+#demo-table > tbody > tr:nth-child(odd) > td {
+  background-color: #cee;
+}
+
+#demo-table > tbody > tr:nth-child(even) > td {
+  background-color: #cef;
+}
+/* body */
+#demo-table td {
+  padding:.5em .5em .5em 3em;
+}
+
+
+
+/* footer */
+#demo-table tfoot {
+  font-weight: bold;
+}
+
+#demo-table tfoot th {
+  color: blue;
+}
+
+
+
+#demo-table > tfoot td {
+
+}
+
+dt:hover ~ dd {
+background-color: purple;
+}
+
+img {
+    width: 100px;
+    height: 125px;
+    float: left;
+}
+
+
+.outer {
+text-align: left;	
+margin: 0px auto;
+padding: 0px;
+height: 531px;
+width: 804px;
+background-color: pink;
+border: 1px solid #81B1D9; 
+}
+
+.inner {
+width: 600px;
+height: 300px;
+left:5px;
+top:5px;
+background-color: blue;
+float:left;
+}
